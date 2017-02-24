@@ -87,3 +87,24 @@ Example :
     Vector2f intersectionPoint = Line::getIntersecPoint(line1, line2);
 
 Note : if there is none, the method will return "`null2f`", that is just a `Vector2f(NULL, NULL)`
+
+**Know if a point is on a segment :**
+
+Here's the definition : 
+`static bool IsOnSegment(Line line, Vector2f k);`
+
+Example :
+
+    bool onSegment = Line::IsOnSegment(line, point);
+
+**Know if two lines are connected :**
+
+Here's the definition :
+
+        static bool areConnected(Line* a, Line* b);
+
+Please note there are ***pointers***.
+
+Example :
+
+    bool linesConnected = Line::areConnected(*line1, *line2);
