@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1487907559 source:/home/haestiaa/Bureau/dev/array editor/main.cpp
+1487913415 source:/home/haestiaa/Bureau/dev/array editor/main.cpp
 	<SFML/Graphics.hpp>
 	<iostream>
 	"roundline.h"
 	"geometry.h"
+	"edgePoly.h"
 
 1487906212 /home/haestiaa/Bureau/dev/array editor/include/geometry.h
 	<SFML/System/Vector2.hpp>
@@ -18,4 +19,8 @@
 1487629699 /home/haestiaa/Bureau/dev/array editor/roundline.h
 	<SFML/Graphics/Shape.hpp>
 	<cmath>
+
+1487913404 /home/haestiaa/Bureau/dev/array editor/include/edgePoly.h
+	"geometry.h"
+	<SFML/Graphics/VertexArray.hpp>
 
