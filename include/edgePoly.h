@@ -11,11 +11,11 @@ public:
 
     sf::VertexArray smallPoly, bigPoly;
 
-    sf::Line* edges[4];
+    Line* edges[4];
 
     edgePoly(sf::Vertex square[4]);
 
-    void split(sf::Line const& splitLine);
+    void split(Line const& splitLine);
 };
 
 #endif // EDGEPOLY_H
