@@ -85,3 +85,5 @@ Here's the definition :
 Example :
 
     Vector2f intersectionPoint = Line::getIntersecPoint(line1, line2);
+
+Note : if there is none, the method will return "`null2f`", that is just a `Vector2f(NULL, NULL)`
