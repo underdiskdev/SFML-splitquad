@@ -107,4 +107,4 @@ Please note there are ***pointers***.
 
 Example :
 
-    bool linesConnected = Line::areConnected(*line1, *line2);
+    bool linesConnected = Line::areConnected(&line1, &line2);
